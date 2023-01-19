@@ -1,0 +1,190 @@
+header{
+  height: 120px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nseLogo{
+  height: 75%;
+}
+.tools{
+  padding: 20px 0;
+  display: flex; 
+  justify-content:space-around;
+  align-items: center;
+  background-color: transparent;
+}
+.Alltools{
+  background-color: gainsboro;
+  text-align: center;
+}
+.tools img{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+body
+{
+    margin: auto;
+    width: 90%;
+}
+.barre{
+  background-color: transparent;
+  width: 72%;
+  height: 0px;
+  position: absolute;
+  z-index: 0;
+  border-bottom: 1.5px navy dotted;
+}
+.powerBI{
+  width: 100%;
+}
+.tradingTime{
+  background-color: orange;
+  color: white;
+}
+.tradingPlanning{
+  background-color: navy;
+  color: wheat;
+}
+.aa{
+  color: transparent;
+  position: absolute;
+}
+i{
+  color: navy;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+h3{
+  margin-left: 20px;
+}
+
+.toHi{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 2px solid navy;
+  width: 250px;
+  height: 180px;
+  transform: translate(-95px,-200px);
+  border-radius: 15px;
+}
+.toHi h1{
+  margin: 0;
+}
+.toHi p{
+  margin: 0 2px;
+  text-align: start;
+}
+.fl{
+  color: transparent;
+  position: relative;
+  transform: translate(30px,-105px);
+}
+
+.bb{
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100%;
+  border: solid navy 3px;
+  font-size: 25px;
+  transform: translateY(70%);
+}
+.fa-table{
+  left: 38.4%;
+}
+.fa-cloud{
+  right: 38.2%;
+}
+.fa-chart-line{
+  right: 19.1%;
+}
+.json{
+  position: absolute;
+  padding: 5px;
+  transform: translateY(70%);
+  color: transparent;
+  font-size: 11px;
+  font-weight: bolder;
+  left: 19.1%;
+}
+.rapidapiLink{
+  text-align: start;
+  padding: 20px;
+}
+span{
+  color: navy;
+  font-weight: bold;
+}
+.fa-circle{
+  z-index: 100;
+}
+.tradingTime h1{
+  font-size: 18px;
+  text-align: center;
+  color: navy;
+  border: 1.5px solid navy;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.allTime{
+  background-color: orange;
+  text-align: center;
+  border: 1.5px solid navy;
+  margin-bottom: 5px;
+}
+.allTime h1{
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  color: navy;
+  padding: 0;
+  margin: 5px;
+}
+.tradingPlanning h1{
+  font-size: 23px;
+  padding: 10px;
+}
+.tradingPlannings{
+  background-color: rgba(168,2,56,1);
+  color: wheat;
+  font-size: 13px;
+  padding:2px 5px;
+}
+@media only screen and (max-width:800px) {
+  .laptop{
+    display: none;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,181,49);
+  }
+  .mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,181,49);
+  }
+  .mobile div{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 50%;
+  }
+}
