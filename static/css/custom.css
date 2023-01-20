@@ -162,6 +162,9 @@ span{
   font-size: 13px;
   padding:2px 5px;
 }
+.mobile{
+    display: none;
+  }
 @media only screen and (max-width:800px) {
   .laptop{
     display: none;
