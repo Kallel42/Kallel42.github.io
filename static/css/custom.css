@@ -10,6 +10,10 @@ header{
   font-size: 23px;
   padding: 10px;
 }
+.tradingPlannings{
+  background-color: rgba(168,2,56,1);
+  color: wheat;
+}
 .nseLogo{
   height: 75%;
 }
