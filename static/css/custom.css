@@ -6,6 +6,10 @@ header{
   align-items: center;
   justify-content: center;
 }
+.tradingPlanning h1{
+  font-size: 23px;
+  padding: 10px;
+}
 .nseLogo{
   height: 75%;
 }
