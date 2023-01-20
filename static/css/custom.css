@@ -29,7 +29,8 @@ header{
   text-align: center;
 }
 .AlltoolsHi{
-  color:white;
+  color:navy;
+  padding-top: 20px;
 }
 .tools img{
   display: inline-block;
