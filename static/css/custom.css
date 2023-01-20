@@ -6,8 +6,8 @@ header{
   align-items: center;
   justify-content: center;
 }
-.tradingPlanning h1{
-  font-size: 10px;
+.tradingPlannings h1{
+  font-size: 23px;
   padding: 10px;
 }
 .nseLogo{
@@ -163,8 +163,6 @@ span{
 .tradingPlannings{
   background-color: rgba(168,2,56,1);
   color: wheat;
-  font-size: 13px;
-  padding:2px 5px;
 }
 .mobile{
     display: none;
