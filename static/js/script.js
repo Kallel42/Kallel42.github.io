@@ -79,7 +79,7 @@ if(dayNow.getHours()<5 || dayNow.getHours()>15){
 }
 else{
     nextT[0].innerHTML="";
-    toAdd[0].innerHTML="open to trade";
-    toAdd.style.color="green"
+    toAdd[0].innerHTML="Closed trade";
+    toAdd.style.color="red"
 }
 
