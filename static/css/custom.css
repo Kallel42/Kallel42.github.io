@@ -27,6 +27,7 @@ header{
 .Alltools{
   background-color: gainsboro;
   text-align: center;
+  color:white;
 }
 .tools img{
   display: inline-block;
