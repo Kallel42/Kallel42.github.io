@@ -175,7 +175,7 @@ span{
 .mobile{
     display: none;
   }
-@media only screen and (max-width:480px) {
+@media screen and (max-width:800px) {
   .laptop{
     display: none;
   }
