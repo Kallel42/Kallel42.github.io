@@ -2,9 +2,10 @@ header{
   height: 120px;
 }
 iframe{
-  width: 970px;
-  height: 541.25px;
+  width: 100%;
+  height: 100%;
   margin-left: 10px;
+  margin-right: 10px;
 }
 header{
   display: flex;
